@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "CoderCity",
+    "navigationBarTextStyle":"white"
+  }
+}
