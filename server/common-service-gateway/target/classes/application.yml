@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10000/eureka/
+server:
+  port: 8888
+spring:
+  application:
+    name: common-service-gateway
+zuul:
+  routes:
+    api-a:
+      path: /article/**
+      serviceId: article-service-manager
